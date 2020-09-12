@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityDua"
+    android:background="@color/colorBlueDark">
+
+    <ImageView
+        android:id="@+id/img_logoamikom"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logoamikom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/ini_adalah_logo_amikom"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_selamatdatang"
+        android:text="@string/selamat_datang"
+        android:layout_centerInParent="true"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_namamahsiswa_activity2"
+        android:layout_below="@+id/tv_selamatdatang"
+        android:text="@string/nama_mahasiswa"
+        android:textColor="@color/colorWhite"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_prodimahasiswa_activity2"
+        android:layout_below="@+id/tv_namamahsiswa_activity2"
+        android:text="@string/prodi_mahasiswa"
+        android:textColor="@color/colorWhite"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btn_like"
+        android:background="@drawable/btnlike"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:contentDescription="@string/ini_adalah_button_like"/>
+
+</RelativeLayout>

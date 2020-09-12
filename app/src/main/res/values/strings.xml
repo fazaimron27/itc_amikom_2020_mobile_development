@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">apk itc 2020</string>
+    <string name="ini_adalah_logo_itc">ini adalah logo itc</string>
+    <string name="ini_adalah_avatar">ini adalah avatar</string>
+    <string name="prodi">Prodi</string>
+    <string name="masukkan_nama">Masukkan Nama</string>
+    <string name="masukkan_data">Masukkan Data</string>
+    <string name="nama">Nama</string>
+    <string name="masukkan_prodi">Masukkan Prodi</string>
+    <string name="kirim">Kirim</string>
+    <string name="prodi_mahasiswa">Prodi Mahasiswa</string>
+    <string name="nama_mahasiswa">Nama Mahasiswa</string>
+    <string name="ini_adalah_logo_amikom">ini adalah logo amikom</string>
+    <string name="ini_adalah_button_like">ini adalah button like</string>
+    <string name="selamat_datang">Selamat Datang</string>
+</resources>
